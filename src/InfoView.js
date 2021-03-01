@@ -1,6 +1,6 @@
 import React from 'react'
 
-function InfoView(props) {
+const InfoView = (props) => {
     return(
         <div id='info-bar'>
         <h2>Level: {props.level}</h2>
