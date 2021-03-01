@@ -1,0 +1,42 @@
+.App {
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    min-height: 92vh;
+    margin: 2vh auto 0vh auto
+}
+header{
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > *{
+    display: flex;
+    justify-content: space-around;
+}
+header > h1 {
+    width: 15%;
+}
+header > div {
+    width: 25%;
+}
+#scores {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    height: 4vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer a {
+    color: rgb(241, 248, 255);
+    font-weight: bold;
+    text-decoration: none
+}
