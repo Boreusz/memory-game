@@ -1,0 +1,51 @@
+#game-board {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 1rem;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(60, 22, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-value{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card-description {
+    margin-bottom: 0.5rem;
+}
+#game-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#game-history > h2{
+    width: 50%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+#game-history ol {
+    text-align: center;
+    width: 50%;
+    margin-top: 0.5rem;
+    padding: 0;
+}
+#game-history li  {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+    list-style-position: inside;
+}
+.best-score {
+    color: rgb(204, 255, 65);
+    font-weight: bold;
+}
